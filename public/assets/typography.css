@@ -1,0 +1,93 @@
+/* DS Docs - The comments and the Notion docs are pretty much the same.
+   https://ccmdesign.notion.site/Colors-e337427d21e14da48e6dc921e0c8339a */
+
+/* ==================================================================================
+   THIS IS YOUR MAIN CONFIG FILE. 
+   HERE YOU CAN CHANGE THE BASELINE STYLING OF THE WHOLE SYSTEM
+  =================================================================================== */
+
+  
+/* Base Typography Configs */
+/* 
+  Here we configure the two font families we will use trhoughout the system. 
+  If you want to use just one, it's easier to assign the same font-family to both variables. 
+*/
+
+@import url('https://cloud.typography.com/7264818/6341032/css/fonts.css');
+@import url('https://cloud.typography.com/7264818/7770032/css/fonts.css');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,800;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,600;1,8..60,800&display=swap'); */
+
+:root, :after, :before {
+  /* Set the project fonts */
+  /* --display-font: "Sentinel SSm A", "Sentinel SSm B", serif; */
+  /* --body-font: urw-din, sans-serif; */
+  --display-font: "Decimal 2 A", "Decimal 2 B", sans-serif;
+  --body-font: "Ringside Narrow SSm A", "Ringside Narrow SSm B", sans-serif;
+  /* --icon-font: 'Material Symbols Outlined'; */
+  /* --icon-weight: 300; /* This variable is here in case we have multiple weights of the material symbols. */
+  /* --base-font-size: 16px; */
+}
+
+/* Typography */
+:root, :after, :before {
+  /* 
+    This is a granular configuration of the typography elements.
+    We suggest using https://type-scale.com/ to calculate your sizings in more harmonic way.
+    Typescale will provide you many of these values, but here you can configre the appearance
+    for each heading level. 
+  */
+
+  /* --base-text-color: var(--base-color); */
+  /* --base-line-height: var(--ratio); */
+  --base-font-weight: 100;
+  /* --base-letter-spacing: 30; */
+
+  /* Sets the base typography configs for buttons */
+  /* --button-font-family: var(--base-font); */
+  /* --button-font-weight: var(--base-font-weight); */
+  /* --button-letter-spacing: var(--base-letter-spacing); */
+
+  /* Headings Config */
+  /* H1 */
+  /* --h1-font-family: var(--display-font); */
+  /* --h1-font-size: 3rem; */
+  --h1-text-color: var(--primary-color);
+  /* --h1-line-height: 1.2; */
+  --h1-font-weight:  100;
+
+  /* H2 */
+  /* --h2-font-family: var(--display-font); */
+  /* --h2-font-size: 2.5rem; */
+  --h2-text-color: var(--primary-color);
+  /* --h2-line-height: 1.2; */
+  --h2-font-weight: 100;
+
+  /* H3 */
+  /* --h3-font-family: var(--display-font); */
+  /* --h3-font-size: 1.6rem; */
+  /* --h3-text-color: var(--primary-color); */
+  /* --h3-line-height: 1.2; */
+  /* --h3-font-weight: 600; */
+
+  /* H4 */
+  /* --h4-font-family: var(--display-font); */
+  /* --h4-font-size: 1.2rem; */
+  /* --h4-text-color: var(--primary-color); */
+  /* --h4-line-height: 1.5; */
+  /* --h4-font-weight: 400; */
+
+  /* H5 */
+  /* --h5-font-family: var(--display-font); */
+  /* --h5-font-size:   1rem; */
+  /* --h5-text-color: var(--primary-color); */
+  /* --h5-line-height: var(--ratio); */
+  /* --h5-font-weight: 800; */
+
+  /* H6 */
+  /* --h6-font-family: var(--display-font); */
+  /* --h6-font-size:   1rem; */
+  /* --h6-text-color: var(--primary-color); */
+  /* --h6-line-height: var(--ratio); */
+  /* --h6-font-weight: 400; */
+}

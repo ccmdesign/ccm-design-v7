@@ -29,6 +29,7 @@ export default defineNuxtConfig({
   css: [
     '@ccmdesign/ccm-ds/assets/css/main.scss',
     'public/assets/theme.css',
+    'public/assets/typography.css',
     'public/assets/styles.css',
   ],
   content: {
