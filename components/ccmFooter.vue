@@ -35,7 +35,7 @@
     </center-l>
     <div class="by-ccm">
       <span>{{ currentYear }} ® Copyright {{ projectConfig.client }}<span class="desktop-only"> | Licensed under <a :href="projectConfig.license_url">{{ projectConfig.license_name }}</a></span></span>
-      <a href="https://www.ccmdesign.ca" target="_blank">by ccm.design</a>
+      <a href="https://www.ccmdesign.ca" target="_blank">by Claudio Mendonca Design</a>
     </div>
     
   </base-section>
